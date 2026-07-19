@@ -39,6 +39,10 @@ kotlin {
     sourceSets {
         androidMain.dependencies {
             implementation(libs.compose.uiToolingPreview)
+            implementation(libs.onnxruntime.android)
+        }
+        jvmMain.dependencies {
+            implementation(libs.onnxruntime)
         }
         commonMain.dependencies {
             implementation(libs.compose.runtime)
