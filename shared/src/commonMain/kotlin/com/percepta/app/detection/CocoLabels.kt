@@ -1,4 +1,4 @@
-package com.percepta.app
+package com.percepta.app.detection
 
 val CocoLabels = listOf(
     "person", "bicycle", "car", "motorcycle", "airplane", "bus", "train", "truck",

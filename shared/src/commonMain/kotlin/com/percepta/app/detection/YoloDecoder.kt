@@ -1,6 +1,5 @@
 package com.percepta.app.detection
 
-import com.percepta.app.CocoLabels
 import kotlin.math.max
 
 private const val NUM_CANDIDATES = 8400
