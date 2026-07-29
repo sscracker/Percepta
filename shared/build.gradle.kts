@@ -40,6 +40,7 @@ kotlin {
         androidMain.dependencies {
             implementation(libs.compose.uiToolingPreview)
             implementation(libs.onnxruntime.android)
+            implementation(libs.androidx.activity.compose)
         }
         jvmMain.dependencies {
             implementation(libs.onnxruntime)
