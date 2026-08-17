@@ -5,19 +5,25 @@ plugins {
     alias(libs.plugins.androidMultiplatformLibrary)
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
+    alias(libs.plugins.kotlinCocoapods)
 }
 
 kotlin {
-    listOf(
-        iosArm64(),
-        iosSimulatorArm64()
-    ).forEach { iosTarget ->
-        iosTarget.binaries.framework {
+    iosArm64()
+    iosSimulatorArm64()
+
+    cocoapods {
+        version = "1.0"
+        summary = "Percepta shared module"
+        homepage = "https://github.com/percepta"
+        ios.deploymentTarget = "18.2"
+        framework {
             baseName = "Shared"
             isStatic = true
         }
+        pod("onnxruntime-objc")
     }
-    
+
     jvm()
     
     androidLibrary {
