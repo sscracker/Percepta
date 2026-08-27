@@ -1,5 +1,8 @@
 package com.percepta.app.detection
 
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class DetectedObject(
     val classId: Int,
     val label: String,
@@ -7,6 +10,7 @@ data class DetectedObject(
     val boundingBox: BoundingBox
 )
 
+@Serializable
 data class BoundingBox(
     val left: Float,
     val right: Float,
