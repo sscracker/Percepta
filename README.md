@@ -7,7 +7,7 @@
 ![Platforms](https://img.shields.io/badge/Platforms-Android%20%7C%20iOS%20%7C%20Desktop-success)
 ![ONNX Runtime](https://img.shields.io/badge/ONNX%20Runtime-1.29-005CED)
 
-Percepta detects objects in photos (picked from the gallery or captured with the camera) using a **YOLOv8** model running **entirely on-device** via **ONNX Runtime**. The UI, the image processing, and the detection logic are written **once** in Kotlin and run natively on Android, iOS, and Desktop.
+Percepta detects objects in photos (picked from the gallery or captured with the camera) using a YOLOv8 model running entirely on-device via ONNX Runtime. The UI, the image processing, and the detection logic are written once in Kotlin and run natively on Android, iOS, and Desktop.
 
 > Built as a deep-dive into Kotlin Multiplatform: writing the full ML pipeline by hand (no ready-made SDK), sharing it across three platforms, and integrating a native C/Objective-C inference engine on each.
 
