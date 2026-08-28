@@ -15,12 +15,10 @@ Percepta detects objects in photos (picked from the gallery or captured with the
 
 ## Screenshots
 
-<!-- Add your screenshots here, e.g. -->
-<!-- | Android | iOS | Desktop | -->
-<!-- |---|---|---| -->
-<!-- | ![android](docs/android.png) | ![ios](docs/ios.png) | ![desktop](docs/desktop.png) | -->
-
-_Coming soon._
+| Home screen | Detection (light) | Detection (dark) |
+|:---:|:---:|:---:|
+| <img src="docs/home.jpg" width="230"/> | <img src="docs/detection-light.jpg" width="230"/> | <img src="docs/detection-dark.jpg" width="230"/> |
+| Android | Android · light theme | iOS · dark theme |
 
 ---
 
